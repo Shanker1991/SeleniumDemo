@@ -16,7 +16,7 @@ public class GridTest {
             capabilities.setPlatform(Platform.LINUX);
             RemoteWebDriver driver = new RemoteWebDriver(new URL("http://172.17.0.1:4444/wd/hub"),capabilities);
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-            driver.get("https://www.flipkart.com");
+            driver.get("https://www.google.com");
         } catch (Exception e) {
             e.printStackTrace();
         }
